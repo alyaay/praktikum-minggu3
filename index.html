@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alya Nadhillah Zebua | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ── NAVBAR ── -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar__logo">
+        <span class="logo-dot">&#9670;</span>
+        Website Portofolio
+      </div>
+      <ul class="navbar__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="https://wa.me/6281263670518" class="btn-hire" target="_blank">Hire Me</a>
+      <button id="dark-toggle" class="dark-btn">🌙 Dark Mode</button>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="home">
+      <div class="hero__blob hero__blob--1"></div>
+      <div class="hero__blob hero__blob--2"></div>
+      <div class="hero__content">
+        <span class="hero__badge">Available for Work</span>
+        <h1 class="hero__title">
+          Hi, saya
+          <br />
+          <span class="highlight">
+            Alya Nadhillah
+            <br />
+            Zebua
+          </span>
+        </h1>
+        <p class="hero__sub">IT Student</p>
+        <p class="hero__desc">
+          Mahasiswa Sistem Informasi UMSU yang bersemangat membangun website cepat, responsif, dan
+          tampak profesional.
+        </p>
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+          <a href="#contact" class="btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>
+            About
+            <span class="highlight">Me</span>
+          </h2>
+        </div>
+        <div class="about__body">
+          <div class="about__photo">
+            <img src="assets/sayaa.jpg" alt="Foto Alya Nadhillah Zebua" />
+            <span class="about__photo-badge">&#10022; Sistem Informasi UMSU</span>
+          </div>
+          <div class="about__text">
+            <h3>
+              Halo, saya
+              <span class="highlight">Alya Nadhillah Zebua</span>
+            </h3>
+            <p>
+              Lahir di Gunungsitoli, 05 Desember 2005. Saat ini menempuh studi Sistem Informasi di
+              <strong>Universitas Muhammadiyah Sumatera Utara</strong>
+              dengan IPK 3.92. Saya memiliki ketertarikan besar di bidang web development dan
+              artificial intelligence.
+            </p>
+            <p>
+              Saya percaya teknologi yang baik dimulai dari kode yang rapi, terstruktur, dan bisa
+              diandalkan. Di luar coding, saya suka jogging pagi, menonton anime, dan main Mobile
+              Legends.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Minum Air ── -->
+    <section class="counter-section">
+      <h2>Berapa Kali Kamu Minum Air Hari Ini?</h2>
+      <div class="counter-container">
+        <button id="btn-kurang" class="counter-btn">−</button>
+        <span id="angka-counter">0</span>
+        <button id="btn-tambah" class="counter-btn">+</button>
+      </div>
+      <p id="counter-pesan">Yuk mulai minum air!</p>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>
+            Keahlian
+            <span class="highlight">Saya</span>
+          </h2>
+        </div>
+        <p class="section-sub">Teknologi &amp; tools yang saya kuasai</p>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-card__icon">&#128195;</span>
+            <p class="skill-card__name">HTML5</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-card__icon">&#127912;</span>
+            <p class="skill-card__name">CSS3</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-card__icon">&#9889;</span>
+            <p class="skill-card__name">Java</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-card__icon">&#128013;</span>
+            <p class="skill-card__name">Python</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-card__icon">&#128200;</span>
+            <p class="skill-card__name">MySQL</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-card__icon">&#128279;</span>
+            <p class="skill-card__name">Git</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PORTFOLIO ── -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">
+          My
+          <span class="highlight">Portfolio</span>
+        </h2>
+        <p class="section-sub">Beberapa proyek yang telah saya kerjakan</p>
+        <div class="portfolio-grid">
+          <div class="p-card p-card--featured">
+            <div class="p-card__thumb">
+              <img src="assets/kalkulator.png" alt="Kalkulator Sederhana" />
+            </div>
+            <div class="p-card__info">
+              <div class="card-tags">
+                <span class="tag">Java</span>
+                <span class="tag">NetBeans</span>
+              </div>
+              <h3>Kalkulator Sederhana</h3>
+              <p>
+                Aplikasi kalkulator berbasis desktop yang dibangun menggunakan Java di NetBeans,
+                mendukung operasi aritmatika dasar dengan tampilan GUI yang sederhana.
+              </p>
+            </div>
+          </div>
+
+          <div class="p-card">
+            <div class="p-card__thumb">
+              <img src="assets/kasir.png" alt="Aplikasi Kasir Sederhana" />
+            </div>
+            <div class="p-card__info">
+              <div class="card-tags">
+                <span class="tag">Java</span>
+                <span class="tag">NetBeans</span>
+              </div>
+              <h3>Aplikasi Kasir Sederhana</h3>
+              <p>
+                Aplikasi kasir desktop berbasis Java dengan GUI NetBeans untuk mencatat transaksi
+                dan menghitung total belanja.
+              </p>
+            </div>
+          </div>
+
+          <div class="p-card">
+            <div class="p-card__thumb">
+              <img src="assets/SIM.png" alt="Sistem Informasi Manajemen" />
+            </div>
+            <div class="p-card__info">
+              <div class="card-tags">
+                <span class="tag">ERP</span>
+                <span class="tag">Team Lead</span>
+              </div>
+              <h3>Proyek Flowchart, DFD dan ERD Sistem Informasi</h3>
+              <p>
+                Memimpin tim merancang &amp; mengimplementasi sistem Flowchart, DFD, ERD dalam mata
+                kuliah Sistem Informasi Manajemen UMSU.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+          <span class="highlight">Me</span>
+        </h2>
+        <p class="section-sub">Punya ide atau proyek? Ayo ngobrol!</p>
+
+        <div class="contact-layout">
+          <!-- Info kiri -->
+          <div class="contact-info-box">
+            <div class="d-row">
+              <span class="d-label">Lokasi</span>
+              <span class="d-val">Medan, Indonesia</span>
+            </div>
+            <div class="d-row">
+              <span class="d-label">Email</span>
+              <span class="d-val">zebualyaa@gmail.com</span>
+            </div>
+            <div class="d-row">
+              <span class="d-label">Status</span>
+              <span class="d-val status-open">&#x25CF; Open to Work</span>
+            </div>
+          </div>
+
+          <!-- Form kanan -->
+          <form class="contact-form">
+            <div class="form-row">
+              <input type="text" placeholder="Nama Lengkap" required />
+              <input type="email" placeholder="Email" required />
+            </div>
+            <textarea placeholder="Tulis pesan kamu..." required></textarea>
+            <button type="submit">Kirim Pesan &#8594;</button>
+            <div id="form-feedback" class="feedback hidden"></div>
+            <p class="form-success" id="form-msg"></p>
+          </form>
+        </div>
+
+        <!-- Social Media -->
+        <div class="social-links">
+          <a href="https://wa.me/6281263670518" class="social-item" target="_blank">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12.012 2c-5.508 0-9.987 4.479-9.987 9.987 0 1.763.459 3.42 1.263 4.86L2 22l5.343-1.401c1.392.759 2.979 1.188 4.669 1.188 5.508 0 9.987-4.479 9.987-9.987 0-5.508-4.479-9.987-9.987-9.987zm4.569 14.126c-.255.72-1.476 1.32-2.031 1.407-.51.081-1.17.153-1.899-.078-3.045-.966-5.043-4.053-5.196-4.257-.153-.204-1.242-1.653-1.242-3.153 0-1.5 1.218-1.575 1.41-1.74.192-.165.42-.21.555-.21h.42c.135 0 .315-.051.495.387.195.48.66 1.605.72 1.725.06.12.099.258.021.414-.078.156-.117.255-.234.39-.117.135-.246.3-.351.405-.12.12-.246.252-.105.492.141.24 1.122 1.848 2.4 2.982 1.278 1.134 2.349 1.485 2.619 1.62.27.135.426.114.585-.072.159-.186.684-.801.867-1.077.183-.276.366-.231.615-.141.249.09 1.575.741 1.845.873.27.132.45.195.51.303.06.108.06.621-.195 1.341z"
+              />
+            </svg>
+            <span>WhatsApp</span>
+          </a>
+          <a href="https://www.instagram.com/alyazebuaa/" class="social-item" target="_blank">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.209-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://github.com/alyaay" class="social-item" target="_blank">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803a11.51 11.51 0 0 1 3.006.404c2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer">
+      <div class="footer__inner container">
+        &copy; 2026 Alya Nadhillah Zebua. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
